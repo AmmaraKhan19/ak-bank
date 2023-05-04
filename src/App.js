@@ -1,13 +1,13 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Shop from './components/Shop';
+import Bank from './components/Bank'
 
 function App() {
   return (
     <>
       <Navbar />
       <div className="container">
-        <Shop />
+        <Bank />
       </div>
     </>
   );
